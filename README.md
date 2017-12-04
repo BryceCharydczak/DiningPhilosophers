@@ -12,6 +12,7 @@ This implementation of the Dining Philosophers Deadlock scenario is developed us
 This is an explanation of how to use the program on Ubuntu 16.04. The project uses the Python3.5 interpreter and Ubuntu 16.04 ships with Python 3 and Python 2 pre-installed. To make sure your versions are updated, use 
 
 sudo apt-get update
+
 sudo apt-get -y upgrade
 
 
@@ -39,7 +40,9 @@ The threading library should already be in Python's standard library so you don'
 
 Open an IDE of your choice (we used PyCharm for development). 
 
-Run the backendThreads.py class; 
+Run the backendThreads.py class, located in DiningPhilosophers/hw3/
+
+
 when the graphics window appears, just click the window and watch the magic happen.
 
 In order to adjust when the deadlock event happens, you can increase or decrease the very last time.sleep() statement in the dpsim.py file. 
