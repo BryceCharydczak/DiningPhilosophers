@@ -203,7 +203,7 @@ def eat(phil_id):
             time.sleep(1)  # eating 1 seconds
             chopsticks[(phil_id + 1) % NUM_CHOPSTICKS] = -1 #set down left
 
-        time.sleep(.01) #hold left for very little time
+        time.sleep(.003) #hold left for very little time
         chopsticks[phil_id] = -1
 
-
+#DEAD LOCK OCCURRED
